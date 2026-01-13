@@ -1,0 +1,137 @@
+/* 列表页专有的样式 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?e7bm5p');
+    src: url('../fonts/icomoon.eot?e7bm5p#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?e7bm5p') format('truetype'),
+        url('../fonts/icomoon.woff?e7bm5p') format('woff'),
+        url('../fonts/icomoon.svg?e7bm5p#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.sk_container {
+    width: 1260px;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+/* 秒杀模块 */
+.header h1 img {
+    position: absolute;
+    right: -80px;
+    top: 8px;
+    border-left: 1px solid #c81623;
+    padding-left: 10px;
+}
+
+/* 导航栏模块 */
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.sk_con {
+    float: left;
+    margin-left: 30px;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e90d';
+}
+
+.sk_bd ul li {
+    display: block;
+    float: left;
+    margin: 25px 25px 50px 0px;
+    width: 280px;
+    height: 440px;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid#c81623;
+}
+
+.sk_bd img {
+    width: 270px;
+}
+
+.sk_bd .bd {
+    padding: 12px;
+}
+
+.sk_bd .bd h6 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.sk_bd .bd .xianjia {
+    font-size: 22px;
+    color: #c81623;
+    font-weight: 700;
+}
+
+.sk_bd .bd .yuanjia {
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.yishou {
+    margin-top: 10px;
+    ;
+}
+
+.sk_bd .bd .jindu {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 132px;
+    height: 12px;
+    border: 1px solid #c81623;
+    border-radius: 12px;
+}
+
+.sk_bd .bd .jindu div {
+    height: 100%;
+    width: 87%;
+    background-color: #c81623;
+    border-radius: 12px;
+}
+
+.sk_bd .qianggou a {
+    display: block;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 280px;
+    font-size: 20px;
+    background-color: #b1191a;
+}
